@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+    background-color: #EEEDDE;
+}
+
+.date-picker-container {
+    width: 800px;
+    margin: 5% 0 0 25%;
+    position: relative;
+}
+
+.date-picker-button {
+    margin: 0 0 30px 250px;
+    height: 40px;
+    width: 180px;
+    text-align: center;
+}
+
+.date-picker {
+    background-color: #F7F7F7;
+    width: 400px;
+    text-align: center;
+    padding: 40px;
+    margin-left: 100px;
+    border-radius: 3%;
+    box-shadow: 20px 20px 50px grey;
+}
+
+.current-month {
+    display: inline-block;
+}
+
+.month-button {
+    background-color: #F7F7F7;
+    border: none;
+    font-size: 16px;
+}
+
+.prev-month-button {
+    margin-right: 100px;
+}
+
+.next-month-button {
+    margin-left: 100px;
+}
+
+.date-picker-grid-header {
+    display: flex;
+    margin: 7px 5px;
+    width: 400px
+}
+
+.date-picker-grid-header div {
+    margin: 7px 13px;
+    width: 30px
+}
+
+.date-picker-grid-dates {
+    margin: 7px 5px;
+    width: 400px;
+}
+
+.date {
+    border: none;
+    width: 30px;
+    height: 30px;
+    margin: 15px 15px 15px 7px;
+    background-color: #F7F7F7;
+    border-radius: 20%;
+}
+
+.date:hover {
+    background-color: hsl(200, 100%, 50%);
+}
+
+.date-picker-other-month-date {
+    color: #5B6D5B;
+}
