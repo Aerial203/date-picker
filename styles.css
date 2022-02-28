@@ -16,6 +16,26 @@ body {
     text-align: center;
 }
 
+.date-picker-button:hover {
+    animation: jelly 0.5s;
+}
+
+@keyframes jelly {
+    0%,
+    100% {
+      transform: scale(1, 1);
+    }
+    25% {
+      transform: scale(0.9, 1.1);
+    }
+    50% {
+      transform: scale(1.1, 0.9);
+    }
+    75% {
+      transform: scale(0.95, 1.05);
+    }
+}
+
 .date-picker {
     background-color: #F7F7F7;
     width: 400px;
@@ -24,6 +44,7 @@ body {
     margin-left: 100px;
     border-radius: 3%;
     box-shadow: 20px 20px 50px grey;
+    display: none;
 }
 
 .current-month {
