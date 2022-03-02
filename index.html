@@ -7,22 +7,23 @@
     <title>Date Picker</title>
     <link rel="stylesheet" href="styles.css">
     <style>
-        .date-picker > .show{
+        .date-picker.show{
             display: block;
         }
-        .date-picker.selected {
+        .selected {
             background-color: hsl(200, 100%, 50%);
             color: white
         }
     </style>
-    <script src="script.js" defer></script>
+    <!-- <script src="scripts.js" type="module"></script> -->
+    <script src="script.js" type="module"></script>
 </head>
 <body>
     <div class="date-picker-container">
-        <button class="date-picker-button">October 27th, 2020</button>
-        <div class="date-picker show">
+        <button class="date-picker-button"></button>
+        <div class="date-picker">
             <button class="prev-month-button month-button">&larr;</button>
-            <div class="current-month">October - 2020</div>
+            <div class="current-month"></div>
             <button class="next-month-button month-button">&rarr;</button>
             <div class="date-picker-grid-header date-picker-grid">
                 <div>Sun</div>
